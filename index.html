@@ -1,56 +1,37 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Homework</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>СОЗДАЙ СВОЙ БУРГЕР!</h1>
-        <form>
-            <hr>
-            <label for='meet'>Какое мясо?</label>
-            <input type='text' id='meet' name='meet'>
-            <hr>
-            <label for='amount'>Сколько котлет?</label>
-            <input type='number' id='amount' name='amount' value='1'>            
-            <hr>
-            <label for='doneness'>Степень пожарки?</label>
-            <br>
-            <span>Слабо</span>
-            <input type='range' id='doneness' name='done'>
-            <span>Сильно</span>
-            <hr>
-            <label for='added'>Что добавить?</label>
-            <br>
-            <label for='vegs'>Овощи</label>
-            <input type='checkbox' id='vegs' name='vegs' value='vegs'>
-            <br>
-            <label for='add_vegs'>Доп огурчики</label>
-            <input type='checkbox' id='add_vegs' name='add_vegs' value='add_vegs'>
-            <br>
-            <label for='add_sause'>Доп соус </label>
-            <input type='checkbox' id='add_sause' name='add_sause' value='add_sause'>
-            <hr>
-            <label for='cheese'>Что насчет сыра?</label>
-            <br>
-            <input type='radio' id='Yes' value='Yes' name='cheese'>
-            <label for='Yes'> Да, хочу</label>
-            <br>
-            <input type='radio' id='No' value='No' name='cheese'>
-            <label for='No'>Нее</label>
-            <hr>
-            <label for='bun'>Какая булка?</label>
-            <select name='bun' id='bun'>
-                <option value='standard'>Обычная</option>
-                <option value='seasam'>С кунжутом</option>
-                <option value='pototo'>Картофельная</option>
-            </select>
-            <hr>
-            <label for='sauce'>Какой соус хотите?</label>
-            <input list='sauce_list' id='sauce' name='sauce'>
-            <datalist id='sauce_list'>
-                <option value='Кетчуп'>Кетчуп</option>
-                <option value='Сырный'>Сырный</option>
-                <option value='Барбекю'>Барбекю</option>
-            </datalist>
-        </form>
+        <div class="hello_string">
+            <h1>Создай свой бургер</h1>
+            <p>
+                У нас лучшие бургеры в городе
+            </p>
+        </div>
+        <div class='burger'>
+            <form>
+                <hr>
+                <label for="meet">Какое мясо?</label>
+                <input type="text" id="meet" name="meet">
+                <hr>
+                <label for="amount">Сколько котлет?</label>
+                <input type="number" id="amount" name="amount" value="1" >
+                <hr>
+                <label form="doneness">Степень прожарки</label>
+                <br>
+                <span>Слабо</span>
+                <input type="range" id="doneness" name="done">
+                <span>Сильно</span>
+                <hr>
+            </form>
+        </div>
+        <div class="bye_string">
+            <h1>До свидания!</h1>
+            <h1>Приятного аппетита!</h1>
+        </div>
     </body>
 </html>
+
